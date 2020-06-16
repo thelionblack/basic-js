@@ -39,7 +39,7 @@ describe('Extended repeater', () => {
       assert.equal(repeater('TESTstr', { repeatTimes: undefined, separator: 'ds', addition: 'ADD!', additionRepeatTimes: undefined, additionSeparator: ')))000' }), 'TESTstrADD!');
     });
 
-    it.optional('some pack of tests', () => {
+    it.optional('some pack of tests', () => {           
       assert.equal(repeater('9UXKEEt8Aq', { repeatTimes: 4, separator: '1L467Kdqx2', addition: 'IMqCarClDg', additionRepeatTimes: 8, additionSeparator: 'U7L9D0f8pb' }), '9UXKEEt8AqIMqCarClDgU7L9D0f8pbIMqCarClDgU7L9D0f8pbIMqCarClDgU7L9D0f8pbIMqCarClDgU7L9D0f8pbIMqCarClDgU7L9D0f8pbIMqCarClDgU7L9D0f8pbIMqCarClDgU7L9D0f8pbIMqCarClDg1L467Kdqx29UXKEEt8AqIMqCarClDgU7L9D0f8pbIMqCarClDgU7L9D0f8pbIMqCarClDgU7L9D0f8pbIMqCarClDgU7L9D0f8pbIMqCarClDgU7L9D0f8pbIMqCarClDgU7L9D0f8pbIMqCarClDgU7L9D0f8pbIMqCarClDg1L467Kdqx29UXKEEt8AqIMqCarClDgU7L9D0f8pbIMqCarClDgU7L9D0f8pbIMqCarClDgU7L9D0f8pbIMqCarClDgU7L9D0f8pbIMqCarClDgU7L9D0f8pbIMqCarClDgU7L9D0f8pbIMqCarClDgU7L9D0f8pbIMqCarClDg1L467Kdqx29UXKEEt8AqIMqCarClDgU7L9D0f8pbIMqCarClDgU7L9D0f8pbIMqCarClDgU7L9D0f8pbIMqCarClDgU7L9D0f8pbIMqCarClDgU7L9D0f8pbIMqCarClDgU7L9D0f8pbIMqCarClDgU7L9D0f8pbIMqCarClDg');
       assert.equal(repeater('5tz2rIiyuQ', { repeatTimes: 6, separator: 'HWG1Oh8oRJ', addition: 'u2xi8NVMLf', additionRepeatTimes: 4, additionSeparator: 'JxbPFzu8A9' }), '5tz2rIiyuQu2xi8NVMLfJxbPFzu8A9u2xi8NVMLfJxbPFzu8A9u2xi8NVMLfJxbPFzu8A9u2xi8NVMLfHWG1Oh8oRJ5tz2rIiyuQu2xi8NVMLfJxbPFzu8A9u2xi8NVMLfJxbPFzu8A9u2xi8NVMLfJxbPFzu8A9u2xi8NVMLfHWG1Oh8oRJ5tz2rIiyuQu2xi8NVMLfJxbPFzu8A9u2xi8NVMLfJxbPFzu8A9u2xi8NVMLfJxbPFzu8A9u2xi8NVMLfHWG1Oh8oRJ5tz2rIiyuQu2xi8NVMLfJxbPFzu8A9u2xi8NVMLfJxbPFzu8A9u2xi8NVMLfJxbPFzu8A9u2xi8NVMLfHWG1Oh8oRJ5tz2rIiyuQu2xi8NVMLfJxbPFzu8A9u2xi8NVMLfJxbPFzu8A9u2xi8NVMLfJxbPFzu8A9u2xi8NVMLfHWG1Oh8oRJ5tz2rIiyuQu2xi8NVMLfJxbPFzu8A9u2xi8NVMLfJxbPFzu8A9u2xi8NVMLfJxbPFzu8A9u2xi8NVMLf');
       assert.equal(repeater('UEtWfLO7OQ', { repeatTimes: 5, separator: '6Ex9QcGUW8', addition: 'T0bGgKkt57', additionRepeatTimes: 1, additionSeparator: 'BzP84Ofzxt' }), 'UEtWfLO7OQT0bGgKkt576Ex9QcGUW8UEtWfLO7OQT0bGgKkt576Ex9QcGUW8UEtWfLO7OQT0bGgKkt576Ex9QcGUW8UEtWfLO7OQT0bGgKkt576Ex9QcGUW8UEtWfLO7OQT0bGgKkt57');
@@ -143,7 +143,7 @@ describe('Extended repeater', () => {
   });
 
   describe('extended requirements ', () => {   
-    it.optional('supports multi words ', () => {      
+    it.optional('supports multi words ', () => {                                                                                                       
       assert.equal(repeater('my test string', { repeatTimes: 5, separator: '?!', addition: 'PLUS', additionRepeatTimes: 4, additionSeparator: '))' }), 'my test stringPLUS))PLUS))PLUS))PLUS?!my test stringPLUS))PLUS))PLUS))PLUS?!my test stringPLUS))PLUS))PLUS))PLUS?!my test stringPLUS))PLUS))PLUS))PLUS?!my test stringPLUS))PLUS))PLUS))PLUS');
     });
 
